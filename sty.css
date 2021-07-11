@@ -1,0 +1,63 @@
+
+body { background-size: 100%, 100%;
+  background-image: url('com.jpg')}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+	margin-top: 100px;
+  display: flex;
+
+ 
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+	opacity: .9;
+  flex: 60%;
+  padding: 10px;
+  height: 600px; /* Should be removed. Only for demonstration */
+}
+
+p{
+	color: white;
+}
+
+.pros {
+	font-family: cursive;
+	font-size: 16px;
+}
+
+
+i{
+
+	text-align: center;
+	color: white;	
+	float: center;
+}
+
+i:hover {
+	color: black
+}
+
+
+.pri{
+	font-size: 30px;
+}
+
+.tawag{
+	font-family: Arial;
+	font-size: 22px;
+
+}
+.wagi{
+
+	font-family: Calibri;
+	font-size: 17px;
+}
+
+.wagi:hover{
+	color: black;
+}
